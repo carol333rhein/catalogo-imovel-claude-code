@@ -6,7 +6,7 @@ Um molde para criar um Reels de catálogo de imóvel que vira página por págin
 
 ## Como usar (o Claude Code instala o que faltar)
 
-Baixe o kit (o arquivo .zip), coloque numa pasta, abra o Claude Code nessa pasta e cole o prompt do `PROMPT.md`. **Não precisa descompactar:** o Claude Code descompacta sozinho. Ele também confere e instala o que faltar (Node.js, bibliotecas e navegador interno), pedindo a sua permissão.
+Abra o Claude Code e cole o prompt do `PROMPT.md`, que já tem o link do kit. **Não precisa baixar nem descompactar:** o Claude Code baixa e descompacta sozinho. Ele também confere e instala o que faltar (Node.js, bibliotecas e navegador interno), pedindo a sua permissão.
 
 ### Plano B: instalador
 
