@@ -4,7 +4,13 @@ Um molde para criar um Reels de catálogo de imóvel que vira página por págin
 
 **Este efeito é feito com o Claude Code.** O chat comum do Claude não gera o vídeo, porque ele precisa ler e escrever arquivos no seu computador.
 
-## Instalar tudo de uma vez
+## Como usar (o Claude Code instala o que faltar)
+
+Baixe o kit, descompacte, abra o Claude Code dentro da pasta e cole o prompt do `PROMPT.md`. O próprio Claude Code confere e instala o que faltar (Node.js, bibliotecas e navegador interno), pedindo a sua permissão.
+
+### Plano B: instalador
+
+Se a instalação automática der problema:
 
 - **Windows:** dê dois cliques em `INSTALAR.bat`.
 - **Mac:** abra o Terminal nesta pasta e rode `bash instalar.sh`.
