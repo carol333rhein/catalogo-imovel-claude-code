@@ -1,5 +1,5 @@
 import React from "react";
-import { AbsoluteFill, Sequence, interpolate, spring, useCurrentFrame, useVideoConfig, Easing } from "remotion";
+import { AbsoluteFill, Audio, Sequence, interpolate, staticFile, spring, useCurrentFrame, useVideoConfig, Easing } from "remotion";
 import dados from "../dados.json";
 import { PAGINAS, LARGURA, ALTURA, serif, serifIt, sans, TERRA, TINTA, CREME } from "./Paginas";
 
@@ -93,5 +93,9 @@ export const Reel: React.FC = () => (
     <Gancho />
     <Livro />
     <Sequence from={CTA_FRAME}><Chamada /></Sequence>
+    {VIRADAS.map((v) => (
+      <Sequence key={v} from={v - 2}><Audio src={staticFile("sfx/folha.wav")} volume={0.5} /></Sequence>
+    ))}
+    <Sequence from={CTA_FRAME}><Audio src={staticFile("sfx/pop.wav")} volume={0.5} /></Sequence>
   </AbsoluteFill>
 );

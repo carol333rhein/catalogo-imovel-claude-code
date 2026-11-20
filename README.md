@@ -50,3 +50,5 @@ Você **não** precisa instalar Git, Photoshop, Canva nem editor de vídeo.
 - **Texto cortado no vídeo:** peça ao Claude Code para encurtar o texto no `dados.json` e renderizar de novo.
 
 Feito por Carol Rhein. Uso livre para criar os seus vídeos. Não revenda este molde.
+
+Os efeitos sonoros em `public/sfx/` são de domínio público (CC0).
