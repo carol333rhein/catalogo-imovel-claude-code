@@ -1,5 +1,10 @@
 # Instruções para o Claude Code: criar o catálogo de imóvel de quem está usando
 
+Para você, Claude: a pessoa não sabe programar. Explique cada etapa em uma frase simples e avise quando ela precisar clicar em Permitir.
+
+## Etapa 0. Ignore a pasta atual
+Se o app estiver aberto dentro de uma pasta de projeto (código ou outro trabalho), ignore essa pasta: não instale nada nela e não leia o conteúdo dela. Trabalhe só na pasta nova `catalogo-imovel`, onde o kit foi descompactado.
+
 Esta pasta é um molde (Remotion) que gera um Reels vertical de 14 segundos: o título em cima, um catálogo de imóvel que vira página por página no meio e, depois de 5 segundos, a chamada para comentar uma palavra embaixo.
 
 Se a pessoa só colou o link do kit, baixe você mesmo (por exemplo `curl -L -o kit.zip <link>`, sem precisar de Git), numa pasta nova dentro da pasta atual. Se você recebeu este kit ainda em .zip, descompacte (Windows: `tar -xf arquivo.zip` ou `Expand-Archive`; Mac: `unzip`) e trabalhe dentro da pasta descompactada. Se a pessoa já mandou as fotos ou informações junto, use-as.
