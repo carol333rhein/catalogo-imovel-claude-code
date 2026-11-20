@@ -2,6 +2,8 @@
 
 Esta pasta é um molde (Remotion) que gera um Reels vertical de 14 segundos: o título em cima, um catálogo de imóvel que vira página por página no meio e, depois de 5 segundos, a chamada para comentar uma palavra embaixo.
 
+Se você recebeu este kit ainda em .zip, descompacte (Windows: `tar -xf arquivo.zip` ou `Expand-Archive`; Mac: `unzip`) e trabalhe dentro da pasta descompactada. Se a pessoa já mandou as fotos ou informações junto, use-as.
+
 Quem está usando quer o catálogo do **próprio imóvel**. Sua tarefa é pegar as informações e as fotos dessa pessoa e gerar o vídeo.
 
 ## O que fazer, nesta ordem
