@@ -2,8 +2,8 @@
 
 Para você, Claude: a pessoa não sabe programar. Explique cada etapa em uma frase simples e avise quando ela precisar clicar em Permitir.
 
-## Etapa 0. Ignore a pasta atual
-Se o app estiver aberto dentro de uma pasta de projeto (código ou outro trabalho), ignore essa pasta: não instale nada nela e não leia o conteúdo dela. Trabalhe só na pasta nova `catalogo-imovel`, onde o kit foi descompactado.
+## Etapa 0. Ignore a pasta atual (se ela não for esta)
+Se o app estiver aberto dentro de uma pasta de projeto (código ou outro trabalho), ignore essa pasta: não instale nada nela e não leia o conteúdo dela. Trabalhe só na pasta deste kit. Se a pessoa abriu o Claude Code pelo instalador (INSTALAR), você já está na pasta certa e as bibliotecas já estão instaladas.
 
 Esta pasta é um molde (Remotion) que gera um Reels vertical de 14 segundos: o título em cima, um catálogo de imóvel que vira página por página no meio e, depois de 5 segundos, a chamada para comentar uma palavra embaixo.
 

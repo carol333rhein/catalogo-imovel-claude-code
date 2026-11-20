@@ -4,34 +4,14 @@ Um molde para criar um Reels de catálogo de imóvel que vira página por págin
 
 **Este efeito é feito com o Claude Code.** O chat comum do Claude não gera o vídeo, porque ele precisa ler e escrever arquivos no seu computador.
 
-## Como usar (o Claude Code instala o que faltar)
+## Como usar
 
-Abra o Claude Code e cole o prompt do `PROMPT.md`, que já tem o link do kit. **Não precisa baixar nem descompactar:** o Claude Code baixa e descompacta sozinho. Ele também confere e instala o que faltar (Node.js, bibliotecas e navegador interno), pedindo a sua permissão.
+1. Baixe o kit (arquivo .zip) e **extraia**: clique com o botão direito no arquivo e escolha "Extrair tudo" (no Mac, dê dois cliques no .zip).
+2. Abra a pasta extraída e dê dois cliques em **INSTALAR** (no Mac, `INSTALAR.command`). Ele instala o que faltar (Node.js, bibliotecas, navegador interno e o Claude Code) e abre o Claude Code já pedindo o seu catálogo.
+3. O Claude Code pergunta o título do vídeo, a palavra do comentário e os dados do seu imóvel, e pede as fotos. Você só responde e manda as fotos.
+4. O vídeo sai em `out/catalogo-imovel.mp4` (1080x1920, 14 segundos).
 
-### Plano B: instalador
-
-Se a instalação automática der problema:
-
-- **Windows:** dê dois cliques em `INSTALAR.bat`.
-- **Mac:** abra o Terminal nesta pasta e rode `bash instalar.sh`.
-
-Ele instala o que faltar: o Node.js, as bibliotecas do vídeo, o navegador interno e o Claude Code. Se o Node.js ainda não estiver instalado, o instalador instala e pede para você abrir o arquivo de novo.
-
-## O que ele instala (para você saber)
-
-1. **Claude Code** instalado e funcionando no seu computador (precisa de uma conta do Claude com acesso ao Claude Code).
-2. **Node.js**, versão LTS (a recomendada), em https://nodejs.org. Instale, feche e abra o terminal de novo.
-3. **Internet** na primeira vez: o molde baixa as bibliotecas e um navegador interno para gerar o vídeo (uns 200 MB, só uma vez).
-
-Você **não** precisa instalar Git, Photoshop, Canva nem editor de vídeo.
-
-## Passo a passo
-
-1. Baixe este molde: botão verde **Code**, depois **Download ZIP**. Descompacte numa pasta sua.
-2. Abra o Claude Code **dentro dessa pasta**.
-3. Abra o arquivo `PROMPT.md`, copie o prompt, complete o **título** e a **palavra** entre aspas e cole no Claude Code.
-4. Responda as perguntas sobre o seu imóvel e mande as fotos.
-5. Espere o vídeo ficar pronto. Ele sai em `out/catalogo-imovel.mp4` (1080x1920, 14 segundos).
+**Este efeito é feito com o Claude Code.** O chat comum do Claude não gera o vídeo, porque ele precisa ler e escrever arquivos no seu computador. Você precisa de uma conta do Claude com acesso ao Claude Code.
 
 ## Boas práticas
 
@@ -42,19 +22,13 @@ Você **não** precisa instalar Git, Photoshop, Canva nem editor de vídeo.
 
 ## O que tem na pasta
 
-- `INSTALAR.bat` e `instalar.sh`: instalam tudo o que precisa.
-- `PROMPT.md`: o prompt para colar no Claude Code.
+- `INSTALAR.bat` (Windows) e `INSTALAR.command` (Mac): instalam tudo e abrem o Claude Code.
 - `CLAUDE.md`: as instruções que o Claude Code lê sozinho ao abrir esta pasta.
+- `PROMPT.md`: um prompt alternativo, se você preferir colar direto no Claude Code.
 - `dados.json`: os textos e o nome das fotos (o Claude Code preenche este arquivo).
-- `public/fotos/`: as fotos (vêm com 7 imagens de exemplo geradas por IA, de um imóvel fictício).
+- `public/fotos/`: 7 fotos de exemplo geradas por IA, de um imóvel fictício.
 - `src/`: o código do vídeo. Não precisa mexer.
 
-## Problemas comuns
-
-- **"npm não é reconhecido":** o Node.js não foi instalado ou o terminal não foi reaberto depois de instalar.
-- **O primeiro vídeo demora:** é normal, ele baixa o navegador interno. Os próximos são mais rápidos.
-- **Texto cortado no vídeo:** peça ao Claude Code para encurtar o texto no `dados.json` e renderizar de novo.
+Os efeitos sonoros em `public/sfx/` são de domínio público (CC0).
 
 Feito por Carol Rhein. Uso livre para criar os seus vídeos. Não revenda este molde.
-
-Os efeitos sonoros em `public/sfx/` são de domínio público (CC0).
